@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+article {
+    margin-top: 60px;
+}
+
+.article-section{
+    display: flex;
+}
+
+.article-section ul{
+    font-weight: normal;
+    list-style: none;
+    margin: 0px;
+    margin-right: 50px;
+    padding: 0px;
+}
+
+.article-section ul li {
+    margin-bottom: 5px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+body {
+    max-width: 800px;
+    background-color: whitesmoke;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cover {
+    max-width: 100%;
+}
+
+.divider {
+    border-bottom: 1px solid gray;
+    margin: 30px 0px;
+}
+
+footer {
+    background-color: white;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+footer ul li {
+    color: red;
+    display: inline-block;
+    font-weight: bold;
+    list-style: none;
+    margin: 0px 10px;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px 0px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+h4 {
+    font-size: large;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+main {
+    background-color: white;
+    /* border-radius: 10px; */
+    padding: 20px 40px 60px;
+}
+
+.main-nav {
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px 40px;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+menu {
+    margin-bottom: 0px;
+}
+
+menu li {
+    list-style: none;
+    display: inline-block
+}
+
+.nav-item {
+    color: white;
+    font-weight: bold;
+    padding: 8px 5px;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+}
+
+p {
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.top-nav {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-nav-item {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    text-decoration: none;
+}
